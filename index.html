@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVerse</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b04efdb9c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div id="header">
+            <div class="container"></div>
+            <nav>
+                <img src="Logo 7 Final.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#genre">GENRE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>BookVerse Inc.</p>
+                <h1>Hi, We are <span>Team BookVerse</span> <br> From CSE(AIML). Batch A1.</h1>
+            </div>
+        </div> 
+
+        <!-- ------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Logo 2.png" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About BookVerse</h1>
+                    <p> Book Verse is a handy app that recommends famous books from various genres and provides direct links 
+                        for purchasing or downloading them. It's a great tool for book lovers looking to discover new reads! </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('team', event)">Team BookVerse</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="team">
+                        <ul>
+                            <li><span>Ms. Radhika Shukla</span><br> Dreams are like Jewelery.
+                                 Just Wear, Shimmer and Shine.</li>
+                            <li><span>Ms. Nitya Joshi </span><br> In the end, it's not the years in your life that count.</li>
+                                 <li><span>Ms. Mrunal Parashar </span><br> Be Your Own Kind of Beautiful. </li>
+                                    <li><span>Ms. Aaradhya Gupta </span><br> Whatever our souls are made of, his and mine are the same.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+     <!-- ----------services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="service-list">
+            <div class="service-item">
+                <i class="fa-solid fa-book"></i>
+                <h2>BOOK RECOMMENDATIONS</h2>
+                <p>Book Verse is a book recommendation service that suggests popular books from various genres based on your preferences.
+                     It provides brief summaries and direct links to purchase or download the books, 
+                     making it easy for you to discover new reads.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-feather"></i>
+                <h2>AUTHOR'S TOUCH</h2>
+                <p>Share Your Story: Share your short stories with us! Whether it's a heartwarming tale, a thrilling adventure,
+                    or a thought-provoking narrative, we welcome all genres and styles. Submit your original stories today and
+                     connect with readers around the world. Let your imagination soar!</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------genre---------- -->
+<div id="genre">
+    <div class="container">
+        <h1 class="sub-title">Genres</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="mysterious-4830751_1280.jpg" >
+                <div class="layer">
+                    <h3>THRILLER</h3>
+                    <p>Danger whispers through the pages, keeping you on the edge until the very end.</p>
+                    <a href="thriller.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="romance 1.jpg">
+                <div class="layer">
+                    <h3>ROMANCE</h3>
+                    <p>Hearts collide and passions ignite in the dance of love's sweet embrace.</p>
+                    <a href="romance.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="self help.jpg">
+                <div class="layer">
+                    <h3>SELF-HELP</h3>
+                    <p>Find your purpose, live with intention, and create the life you've always dreamed of.</p>
+                    <a href="selfhelp.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>   
+        </div>
+        <br>
+        <div class="work-list-1">
+            <div class="work">
+                <img src="sci fi 1.jpg">
+                <div class="layer">
+                    <h3>Science Fiction</h3>
+                    <p>Clay idol making is the artistic process of crafting three-dimensional figurines or sculptures using clay as the primary material, often associated with cultural or religious traditions.</p>
+                    <a href="sci fi.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="fiction.jpg">
+                <div class="layer">
+                    <h3>Fiction</h3>
+                    <p>A pencil sketch is a two-dimensional artistic representation created using pencils, involving the application of varying pressure, strokes, and shading techniques to capture a subject's form, details, and tonal variations on paper.</p>
+                    <a href="fiction.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="mythology.jpg">
+                <div class="layer">
+                    <h3>Mythology</h3>
+                    <p>Legends echo through the ages, weaving tales of gods and mortals in an epic tapestry of the divine.</p>
+                    <a href="mythology.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+<!-- ---------contact--------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> radhishukla03@gmail.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i> nityageetjoshi@gmail.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i> mrunalparashar190@gmail.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i> aaradhyagupta138@gmail.com</p>
+                <a href="https://drive.google.com/drive/folders/14pXFE3P0IHyBAzC8Mt2ytmb6MBOVrZot?usp=sharing" download class="btn btn2">Mystery Box</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="story/message" row="6" placeholder="Your Story / Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Book Verse Inc. Made with <i class="fas fa-heart"></i> by Team Book Verse</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, event) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySF070I-GANUjH19UERTVPF21nLp6AXTzt6hqU-il35surL9NQS6RNSwI0dVVcS7mDPQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+        </body>
+        </html>
